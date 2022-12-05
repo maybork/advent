@@ -1,7 +1,5 @@
 package AoC2022
 
-import scala.compiletime.ops.int
-
 object Day03 extends App:
   def evalRucksack(line: String): Int =
     val (a, b) = line.splitAt(line.length() / 2);
